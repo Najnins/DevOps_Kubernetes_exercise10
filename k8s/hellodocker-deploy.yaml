@@ -26,7 +26,7 @@ spec:
             - containerPort: 80
           env:
             - name: NAME
-              value: "Najnin from minikube and Kubernetes"
+              value: "Najnin Sultana from minikube and Kubernetes"
           readinessProbe:
             httpGet:
               path: /
